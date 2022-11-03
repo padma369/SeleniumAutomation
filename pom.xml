@@ -49,7 +49,7 @@
 							<!-- <suiteXmlFile>testng_smokeTest.xml</suiteXmlFile> <suiteXmlFile>testng_sanityTest.xml</suiteXmlFile> 
 								<suiteXmlFile>testng_regressionTest.xml</suiteXmlFile> -->
 							<suiteXmlFile>testng_Log4j.xml</suiteXmlFile>
-
+							<suiteXmlFile>testng_crossBrowser.xml</suiteXmlFile>
 
 
 						</suiteXmlFiles>
