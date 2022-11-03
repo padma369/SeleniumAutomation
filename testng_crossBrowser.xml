@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  thread-count="2"  parallel="tests"     name="Suite">
+
+
+
+ <test thread-count="5" name="ChromeTest">
+<parameter name="ibm_browser" value="chrome"></parameter>
+    <classes>
+      <class name="Excecise1.AmzTestwithWebDriverManager"/>  
+    </classes>
+    </test>
+   
+   
+   
+    <test thread-count="5" name="EdgeTest">
+  <parameter name="ibm_browser" value="edge"></parameter>
+        <classes>
+            <class name="Excecise1.AmzTestwithWebDriverManager" />
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

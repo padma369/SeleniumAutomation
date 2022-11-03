@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" ><test name="Test">
+		<classes>
+			<class name="Excecise1.TestNgMethodsAndSuites" >
+
+
+			<methods>
+				 <include name="login"></include>      <!--  if we iclude like this only that perticular method will exeute in the entire class.  -->
+			<!--	<exclude name="payment"></exclude>    -->
+			</methods>
+
+		</class>
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
